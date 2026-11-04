@@ -1,0 +1,53 @@
+# Ambientes Python
+.venv/
+venv/
+env/
+ENV/
+
+# Python: bytecode e caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testes, cobertura e ferramentas de qualidade
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.tox/
+nox/
+
+# Builds e pacotes
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Modelos e artefatos serializados gerados localmente
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# Editores e sistemas operacionais
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
